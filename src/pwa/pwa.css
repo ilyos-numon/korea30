@@ -1,0 +1,121 @@
+/* 새 버전 안내 — 문서 흐름 배치 (오버레이 아님) */
+.pwa-update {
+  margin: 4px var(--gutter) 0;
+  align-items: flex-start;
+}
+
+.pwa-update-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.pwa-update-text {
+  margin: 0;
+}
+
+.pwa-update-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+/* 홈 화면 추가 권유 — 문서 흐름 배치 (오버레이 아님) */
+.install-hint {
+  margin: 4px var(--gutter) 0;
+  align-items: flex-start;
+}
+
+.install-hint-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.install-hint-title,
+.install-hint-why {
+  margin: 0;
+}
+
+.install-hint-title {
+  font-weight: 600;
+}
+
+.install-hint-title [lang='ko'] {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.install-hint-why {
+  font-size: var(--fs-s);
+  line-height: 1.45;
+}
+
+.install-hint-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.install-hint-steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: install-step;
+}
+
+.install-hint-steps li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  counter-increment: install-step;
+}
+
+.install-hint-steps li::before {
+  content: counter(install-step);
+  flex: none;
+  width: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.install-hint-steps [lang='ko'] {
+  display: block;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.install-hint-step-icon {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 0 0 1px currentColor;
+}
+
+.install-hint-close {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 36px;
+  height: 36px;
+  margin: -6px -6px 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}

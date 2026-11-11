@@ -1,0 +1,148 @@
+/* ---------- 기록 백업 (도구 화면) ---------- */
+.backup-section {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.backup-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: 17px;
+}
+
+.backup-intro {
+  margin: 0;
+  color: var(--c-muted);
+  font-size: var(--fs-s);
+  line-height: 1.55;
+}
+
+.backup-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}
+
+.backup-file-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.backup-file-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.backup-file-busy {
+  opacity: 0.55;
+}
+
+.backup-preview-body {
+  display: grid;
+  gap: var(--space-2);
+  flex: 1;
+  min-width: 0;
+}
+
+.backup-preview-body p {
+  margin: 0;
+}
+
+.backup-preview-file {
+  color: var(--c-text);
+  font-weight: 600;
+}
+
+.backup-preview-current {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--c-muted);
+}
+
+.backup-preview-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}
+
+@media (max-width: 360px) {
+  .backup-actions {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- 백업 알림 (화면 위, 문서 흐름 안) ---------- */
+.backup-reminder {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 4px var(--gutter) 0;
+  padding: 8px 8px 8px 10px;
+  border-radius: 14px;
+  background: var(--c-accent-weak);
+  color: #6b4b00;
+  font-size: var(--fs-s);
+  box-shadow: inset 0 0 0 1px rgba(244, 184, 41, 0.45);
+}
+
+.backup-reminder-icon {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  background: var(--c-accent);
+  color: var(--c-text);
+}
+
+.backup-reminder-text {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.backup-reminder-text [lang='ko'] {
+  display: block;
+  color: #9a6c00;
+  font-size: 12px;
+}
+
+.backup-reminder-actions {
+  display: flex;
+  align-items: center;
+  flex: none;
+  gap: 2px;
+}
+
+.backup-reminder-close {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: #9a6c00;
+  cursor: pointer;
+}
+
+@media (max-width: 360px) {
+  .backup-reminder {
+    flex-wrap: wrap;
+  }
+
+  .backup-reminder-actions {
+    margin-left: auto;
+  }
+}

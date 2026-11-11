@@ -1,0 +1,43 @@
+import { ARC_FORM_FIELDS } from '../../forms/arcForm';
+import type { PassportStrings } from './types';
+
+const FIELD: Readonly<Record<string, string>> = Object.fromEntries(ARC_FORM_FIELDS.map((f) => [f.id, f.labelKo]));
+
+export const ko: PassportStrings = {
+  title: '여권 스캔',
+  intro: '여권 아래 두 줄을 읽어 외국인등록 신청서 초안을 채워 드려요.',
+  privacyTitle: '여권 정보는 이 기기 안에만 있어요',
+  privacyBody: '사진과 여권 정보는 이 기기 안에서만 읽어요. 저장하지 않고 어디에도 보내지 않아요. 새로고침하면 사라져요.',
+  scanHeading: '사진으로 읽기',
+  choosePhoto: '사진 찍기·고르기',
+  photoHint: '여권 사진면 아래 두 줄(<<<)이 선명하게 나오도록 찍어 주세요.',
+  reading: (percent) => `읽는 중… ${percent}%`,
+  readDone: '다 읽었어요. 아래 글자를 확인해 주세요.',
+  ocrFailed: '사진을 읽지 못했어요. 더 선명한 사진을 쓰거나 아래에 두 줄을 직접 입력해 주세요.',
+  pasteHeading: '또는 두 줄 직접 입력',
+  pasteHint: '사진면 아래 두 줄(한 줄에 44자)을 입력하거나 붙여 넣으세요.',
+  parse: '두 줄 읽기',
+  errEmpty: '먼저 두 줄을 입력해 주세요.',
+  errNotTd3: '여권 형식(44자 두 줄)이 아닌 것 같아요.',
+  errChecksum: '검증 숫자와 맞지 않는 글자가 있어요. 여권과 비교해 고쳐 주세요.',
+  errUnreadable: '두 줄을 읽지 못했어요. 글자를 확인해 주세요.',
+  parsed: '여권 정보를 채웠어요. 모든 칸을 확인해 주세요.',
+  corrected: '일부 글자를 자동으로 고쳤어요. 여권과 비교해 확인해 주세요.',
+  fieldsHeading: '신청서 칸',
+  fieldsHint: '모든 칸을 고칠 수 있어요.',
+  fieldLabel: (fieldId) => FIELD[fieldId] ?? '항목',
+  extraHeading: '여권 두 줄에 없는 정보',
+  extraAddressKr: '대한민국 내 주소',
+  extraPhone: '휴대전화',
+  extraAddressHome: '본국 주소',
+  extraWorkplace: '근무처',
+  extraPassportIssueDate: '여권 발급일',
+  errRequired: '꼭 입력해 주세요',
+  errBadDate: '날짜를 확인해 주세요',
+  errBadPhone: '전화번호를 확인해 주세요',
+  pdf: 'PDF 초안 만들기',
+  pdfMaking: 'PDF 만드는 중…',
+  pdfError: 'PDF를 만들지 못했어요. 다시 시도해 주세요.',
+  officialNotice: '공식 양식을 본뜬 자체 양식이에요. 출입국·외국인관서의 공식 서식이 우선해요.',
+  ask1345: '궁금하면 1345에 확인해 보세요.',
+};
