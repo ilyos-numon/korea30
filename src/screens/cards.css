@@ -1,0 +1,72 @@
+/* ---------- 말하기 카드 ---------- */
+.cards-group:first-of-type {
+  margin-top: var(--space-2);
+}
+
+.cards-group-ko {
+  margin-left: 2px;
+  font-size: var(--fs-s);
+  font-weight: 600;
+  color: var(--c-muted);
+}
+
+.cards-list {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.cards-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  padding: 14px 16px;
+  border: 0;
+  border-radius: 18px;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-1), inset 0 0 0 1px var(--c-border);
+  color: var(--c-text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  animation: fade-up var(--dur-3) var(--ease-out) backwards;
+  animation-delay: calc(var(--i, 0) * 35ms);
+  transition: transform var(--dur-1) var(--ease-out), box-shadow var(--dur-2);
+}
+
+.cards-item:active {
+  transform: scale(0.98);
+}
+
+.cards-item-text {
+  display: grid;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.cards-item-ko {
+  font-size: 17px;
+  font-weight: 750;
+  line-height: 1.4;
+}
+
+.cards-item-vi {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: var(--c-muted);
+  font-size: var(--fs-s);
+}
+
+.cards-item-go {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-pill);
+  background: var(--c-surface-2);
+  color: var(--c-muted);
+}

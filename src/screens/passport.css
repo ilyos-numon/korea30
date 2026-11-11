@@ -1,0 +1,310 @@
+/* ---------- 여권 → 신청서 ---------- */
+.passport-ko {
+  display: block;
+  margin-top: 2px;
+  font-size: var(--fs-xs);
+  opacity: 0.8;
+}
+
+.passport-privacy {
+  align-items: center;
+}
+
+.passport-privacy .hint {
+  flex: 1;
+  min-width: 0;
+}
+
+.passport-privacy .hint-btn {
+  background: rgba(17, 115, 63, 0.12);
+  color: var(--c-ok);
+}
+
+.passport-privacy-title {
+  font-size: var(--fs-s);
+  font-weight: 750;
+}
+
+.passport-step {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.passport-heading {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.passport-step-no {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 9px;
+  background: var(--c-text);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* 사진 고르기 영역 */
+.passport-drop {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  padding: 22px 16px 18px;
+  border-radius: 18px;
+  border: 1.5px dashed rgba(46, 75, 209, 0.45);
+  background: var(--c-primary-weak);
+  color: var(--c-primary);
+  text-align: center;
+  cursor: pointer;
+  transition: transform var(--dur-1) var(--ease-out), background-color var(--dur-2);
+}
+
+.passport-drop:active {
+  transform: scale(0.985);
+}
+
+.passport-drop-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 18px;
+  background: var(--c-primary);
+  color: #fff;
+  box-shadow: 0 10px 20px -12px rgba(46, 75, 209, 0.9);
+}
+
+.passport-drop-title {
+  font-weight: 800;
+}
+
+.passport-drop-hint {
+  color: var(--c-muted);
+  font-size: var(--fs-xs);
+}
+
+.passport-mrz-sample {
+  display: grid;
+  gap: 2px;
+  max-width: 100%;
+  margin-top: 6px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--c-surface);
+  color: var(--c-faint);
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-wrap: normal;
+}
+
+.passport-mrz-sample span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.passport-mrz-sample span:last-child {
+  color: var(--c-primary);
+  background: linear-gradient(90deg, var(--c-accent-weak) 0 0) no-repeat;
+  animation: mrz-scan 2.6s var(--ease-out) infinite;
+}
+
+@keyframes mrz-scan {
+  0% {
+    background-size: 0% 100%;
+  }
+  60%,
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+.passport-file-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.passport-file-busy {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.passport-progress {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px var(--space-2);
+  color: var(--c-primary);
+  font-size: var(--fs-s);
+  font-weight: 650;
+}
+
+.passport-progress[data-state="done"] {
+  color: var(--c-ok);
+}
+
+.passport-progress-bar {
+  flex: 1 1 100%;
+  height: 8px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--c-surface-2);
+}
+
+.passport-progress-bar::-webkit-progress-bar {
+  background: var(--c-surface-2);
+}
+
+.passport-progress-bar::-webkit-progress-value {
+  border-radius: var(--radius-pill);
+  background: var(--c-primary);
+  transition: width var(--dur-2) var(--ease-out);
+}
+
+.passport-progress-bar::-moz-progress-bar {
+  border-radius: var(--radius-pill);
+  background: var(--c-primary);
+}
+
+.passport-or {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--c-muted);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.passport-or::before,
+.passport-or::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--c-border);
+}
+
+.passport-mrz {
+  min-height: 72px;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.passport-req {
+  color: var(--c-danger);
+}
+
+/* 13칸 */
+.passport-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.passport-cell {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.passport-cell-wide {
+  grid-column: span 2;
+}
+
+.passport-cell-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+}
+
+.passport-cell-no {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-pill);
+  background: var(--c-surface-2);
+  color: var(--c-muted);
+  font-size: 11px;
+  font-weight: 800;
+  transition: background-color var(--dur-2), color var(--dur-2);
+}
+
+.passport-cell.is-filled .passport-cell-no {
+  background: var(--c-primary);
+  color: #fff;
+}
+
+.passport-cell-text {
+  display: grid;
+  min-width: 0;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.passport-cell-ko {
+  color: var(--c-muted);
+  font-weight: 500;
+}
+
+.passport-cell .input {
+  min-height: 44px;
+  font-size: 15px;
+}
+
+.passport-cell.is-filled .input {
+  box-shadow: inset 0 0 0 1.5px rgba(46, 75, 209, 0.35);
+  background: #fbfcff;
+}
+
+/* 출력 */
+.passport-output {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.passport-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  color: var(--c-muted);
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+}
+
+.passport-note .icon {
+  margin-top: 2px;
+}
+
+.passport-ask {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--c-primary);
+  font-size: var(--fs-s);
+  font-weight: 700;
+  text-decoration: none;
+}

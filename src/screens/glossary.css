@@ -1,0 +1,141 @@
+/* ---------- 용어 사전 ---------- */
+.glossary-search-wrap {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 10;
+  margin: 0 calc(var(--gutter) * -1);
+  padding: var(--space-2) var(--gutter) var(--space-3);
+  background: linear-gradient(var(--c-bg) 80%, rgba(246, 245, 241, 0));
+}
+
+.glossary-search-box {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: 52px;
+  padding: 0 var(--space-4);
+  border-radius: 16px;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-1), inset 0 0 0 1.5px var(--c-border);
+  color: var(--c-muted);
+  transition: box-shadow var(--dur-1) var(--ease-out);
+}
+
+.glossary-search-box:focus-within {
+  box-shadow: inset 0 0 0 2px var(--c-primary), var(--shadow-focus);
+  color: var(--c-primary);
+}
+
+.glossary-search {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: none;
+  background: none;
+  color: var(--c-text);
+  font: inherit;
+  font-size: 16px;
+}
+
+.glossary-filter {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.glossary-cats {
+  flex: 1;
+  min-width: 0;
+  padding: 3px;
+}
+
+.glossary-cats .chip {
+  min-height: 32px;
+  padding: 0 6px;
+  font-size: var(--fs-xs);
+}
+
+.glossary-search:focus,
+.glossary-search:focus-visible {
+  outline: none;
+}
+
+.glossary-count {
+  flex: none;
+  padding-right: 4px;
+  color: var(--c-muted);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.glossary-empty {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2);
+  padding: var(--space-6) var(--space-4);
+  color: var(--c-muted);
+  text-align: center;
+  animation: fade-up var(--dur-3) var(--ease-out) backwards;
+}
+
+.glossary-empty-title {
+  color: var(--c-text);
+  font-weight: 700;
+}
+
+.glossary-list {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.glossary-term {
+  display: grid;
+  gap: var(--space-2);
+  padding: 16px 16px 14px;
+  border-radius: 18px;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-1), inset 0 0 0 1px var(--c-border);
+  animation: fade-up var(--dur-3) var(--ease-out) backwards;
+  animation-delay: calc(var(--i, 0) * 30ms);
+}
+
+.glossary-term-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.glossary-term-names {
+  display: grid;
+  min-width: 0;
+}
+
+.glossary-term-ko {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.glossary-term-vi {
+  color: var(--c-primary);
+  font-size: var(--fs-s);
+  font-weight: 650;
+}
+
+.glossary-term-explain {
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.glossary-term-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.glossary-expert {
+  text-decoration: none;
+}

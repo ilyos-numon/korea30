@@ -1,0 +1,55 @@
+/* 개인정보처리방침·이용 안내 (PLAN §4.5). .about / .about-section / .tools-legal 만 정의한다. */
+.about {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+
+.about .screen-head {
+  min-width: 0;
+}
+
+.about > .link-btn {
+  margin-top: var(--space-3);
+}
+
+.about-section {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.about-section + .about-section {
+  margin-top: var(--space-3);
+}
+
+.about-section h2 {
+  font-size: var(--fs-m);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: var(--space-2);
+}
+
+.about-section p {
+  color: var(--c-text);
+  line-height: 1.6;
+}
+
+.about-section a {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+
+.about > p {
+  margin: var(--space-3) 0;
+  color: var(--c-muted);
+  font-size: var(--fs-s);
+}
+
+.tools-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-4);
+  margin-top: var(--space-2);
+  min-width: 0;
+}

@@ -1,0 +1,248 @@
+/* ---------- 급여 검산 ---------- */
+.payslip-samples {
+  margin-bottom: var(--space-4);
+}
+
+.payslip-card {
+  padding: 20px 18px;
+  animation: fade-up var(--dur-3) var(--ease-out) backwards;
+}
+
+.payslip-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.payslip-heading {
+  font-size: var(--fs-l);
+  font-weight: 800;
+  letter-spacing: -0.015em;
+}
+
+.payslip-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.payslip-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: 12px 0;
+  border-bottom: 1px solid var(--c-border);
+  animation: fade-up var(--dur-3) var(--ease-out) backwards;
+  animation-delay: calc(var(--i, 0) * 40ms);
+}
+
+.payslip-name {
+  display: grid;
+  min-width: 0;
+  font-weight: 650;
+}
+
+.payslip-vi {
+  display: block;
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  color: var(--c-muted);
+}
+
+.payslip-amount {
+  display: grid;
+  justify-items: end;
+  gap: 2px;
+  flex: none;
+  max-width: 55%;
+  text-align: right;
+  font-weight: 650;
+}
+
+.payslip-base {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin: 0 -18px;
+  padding: 14px 18px;
+  background: var(--c-bg);
+  font-weight: 750;
+}
+
+.payslip-base .payslip-amount {
+  font-size: var(--fs-l);
+  font-weight: 800;
+}
+
+.payslip-deductions .payslip-row:last-child {
+  border-bottom: 0;
+}
+
+.payslip-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--fs-xs);
+  font-weight: 650;
+}
+
+.payslip-status-match {
+  color: var(--c-ok);
+}
+
+.payslip-status-skipped {
+  color: var(--c-faint);
+  font-weight: 500;
+}
+
+.payslip-status-mismatch {
+  display: grid;
+  justify-items: end;
+  color: var(--c-warn);
+}
+
+.payslip-calc {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--fs-s);
+  font-weight: 750;
+}
+
+.payslip-check-mismatch {
+  margin: 4px -10px;
+  padding: 12px 10px;
+  border-radius: 14px;
+  border-bottom: 0;
+  background: var(--c-warn-weak);
+}
+
+.payslip-summary {
+  margin-top: var(--space-3);
+}
+
+.payslip-summary-main {
+  font-weight: 700;
+}
+
+.payslip-summary-ko {
+  margin-top: 2px;
+  font-size: var(--fs-xs);
+  opacity: 0.85;
+}
+
+.payslip-ask-box {
+  display: grid;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  animation: fade-up var(--dur-3) var(--ease-out) 200ms backwards;
+}
+
+.payslip-ask {
+  font-size: var(--fs-l);
+  font-weight: 750;
+  line-height: 1.45;
+}
+
+.payslip-copy {
+  justify-self: start;
+}
+
+.payslip-disclaimer {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  margin-top: var(--space-5);
+  color: var(--c-muted);
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+}
+
+.payslip-disclaimer > .icon {
+  margin-top: 1px;
+}
+
+.payslip-disclaimer .hint {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 직접 입력 */
+.manual-form {
+  display: grid;
+  gap: var(--space-4);
+  padding: 20px 18px;
+  animation: fade-up var(--dur-3) var(--ease-out) backwards;
+}
+
+.manual-privacy {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--c-muted);
+  font-size: var(--fs-xs);
+}
+
+.manual-group {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.manual-group-title {
+  float: left;
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-bottom: 2px;
+  padding: 0;
+  font-size: var(--fs-s);
+  font-weight: 800;
+}
+
+.manual-group-title [lang="ko"] {
+  margin-left: 4px;
+  color: var(--c-muted);
+  font-weight: 600;
+}
+
+.manual-field {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  gap: 6px;
+  min-width: 0;
+}
+
+.manual-line {
+  display: contents;
+}
+
+.manual-line > .manual-label,
+.manual-line > .hint {
+  min-width: 0;
+  align-self: end;
+}
+
+.manual-label {
+  display: grid;
+  font-size: var(--fs-s);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.manual-label .payslip-vi {
+  font-size: 11px;
+}
+
+.manual-input {
+  width: 100%;
+  min-height: 44px;
+  text-align: right;
+}

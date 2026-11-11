@@ -1,0 +1,637 @@
+/* ---------- 소개 페이지 ---------- */
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding-top: env(safe-area-inset-top, 0px);
+  background: var(--c-bg);
+  animation: fade-in var(--dur-3) var(--ease-out) both;
+}
+
+.intro-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-h);
+  padding: 0 var(--space-2) 0 var(--gutter);
+}
+
+.intro-brand {
+  font-size: 19px;
+}
+
+.intro-skip {
+  color: var(--c-muted);
+}
+
+.intro-progress {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  padding: 0 var(--gutter);
+}
+
+.intro-seg {
+  position: relative;
+  height: 4px;
+  border-radius: var(--radius-pill);
+  background: var(--c-border);
+  overflow: hidden;
+}
+
+.intro-seg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--c-text);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur-3) var(--ease-out);
+}
+
+.intro-seg[data-on="true"]::after {
+  transform: scaleX(1);
+}
+
+.intro-track {
+  flex: 1 1 auto;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+  outline: none;
+}
+
+.intro-track::-webkit-scrollbar {
+  display: none;
+}
+
+.intro-slide {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-5);
+  min-width: 0;
+  padding: var(--space-4) var(--space-5);
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+
+.intro-art {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: min(46vh, 340px);
+}
+
+.intro-blob {
+  position: absolute;
+  width: min(78vw, 300px);
+  aspect-ratio: 1;
+  border-radius: 46% 54% 52% 48% / 52% 44% 56% 48%;
+  background: var(--tone-weak, var(--c-primary-weak));
+  animation: blob 9s ease-in-out infinite;
+}
+
+.intro-tone-blue {
+  --tone: var(--c-primary);
+  --tone-weak: var(--c-primary-weak);
+}
+
+.intro-tone-sun {
+  --tone: #c98f00;
+  --tone-weak: var(--c-accent-weak);
+}
+
+.intro-tone-jade {
+  --tone: var(--c-ok);
+  --tone-weak: var(--c-ok-weak);
+}
+
+.intro-tone-ink {
+  --tone: var(--c-text);
+  --tone-weak: #e9e8e3;
+}
+
+.intro-copy {
+  min-height: 7.5em;
+}
+
+.intro-title {
+  font-size: 27px;
+  line-height: 1.22;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.intro-body {
+  margin-top: var(--space-3);
+  color: var(--c-muted);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.intro-slide[data-active="true"] .intro-title {
+  animation: fade-up var(--dur-3) var(--ease-out) 120ms both;
+}
+
+.intro-slide[data-active="true"] .intro-body {
+  animation: fade-up var(--dur-3) var(--ease-out) 220ms both;
+}
+
+.intro-actions {
+  padding: var(--space-3) var(--gutter) calc(var(--space-5) + env(safe-area-inset-bottom, 0px));
+}
+
+.intro-cta {
+  animation: fade-up var(--dur-3) var(--ease-out) both;
+}
+
+/* ---------- 그림 공통 ---------- */
+.art {
+  position: relative;
+  z-index: 1;
+  width: min(72vw, 280px);
+  aspect-ratio: 1;
+}
+
+/* 1. 30일 고리 */
+.ring-track {
+  fill: none;
+  stroke: rgba(46, 75, 209, 0.12);
+  stroke-width: 2;
+  stroke-dasharray: 2 8;
+}
+
+.ring-dot {
+  fill: #d8ddf6;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.intro-slide[data-active="true"] .ring-dot {
+  animation: ring-fill 420ms var(--ease-spring) both;
+  animation-delay: calc(250ms + var(--i) * 45ms);
+}
+
+.intro-slide[data-active="true"] .ring-dot-first {
+  animation-name: ring-fill-first;
+}
+
+.ring-center {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: var(--space-2);
+}
+
+.ring-d {
+  font-size: clamp(44px, 14vw, 60px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  color: var(--c-primary);
+}
+
+.ring-check {
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-pill);
+  background: var(--c-accent);
+  color: var(--c-text);
+  opacity: 0;
+}
+
+.intro-slide[data-active="true"] .ring-check {
+  animation: pop-in 520ms var(--ease-spring) 1.7s both;
+}
+
+@keyframes ring-fill {
+  0% {
+    fill: #d8ddf6;
+    transform: scale(0.6);
+  }
+  100% {
+    fill: var(--c-primary);
+    transform: scale(1);
+  }
+}
+
+@keyframes ring-fill-first {
+  0% {
+    fill: #d8ddf6;
+    transform: scale(0.6);
+  }
+  100% {
+    fill: var(--c-accent);
+    transform: scale(1);
+  }
+}
+
+/* 2. 신청서 + 큰 글씨 */
+.art-paper {
+  position: absolute;
+  top: 6%;
+  left: 4%;
+  display: grid;
+  gap: 14px;
+  width: 68%;
+  padding: 22px 18px;
+  border-radius: 18px;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-2);
+  transform: rotate(-5deg);
+}
+
+.paper-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 6px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.paper-row-on::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--c-accent-weak);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.intro-slide[data-active="true"] .paper-row-on::before {
+  animation: sweep 520ms var(--ease-out) 900ms both;
+}
+
+.paper-no {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-pill);
+  box-shadow: inset 0 0 0 1.6px var(--c-primary);
+  color: var(--c-primary);
+  font-size: 12px;
+  font-weight: 800;
+  opacity: 0;
+}
+
+.paper-row-on .paper-no {
+  background: var(--c-primary);
+  color: #fff;
+}
+
+.intro-slide[data-active="true"] .paper-no {
+  animation: pop-in 420ms var(--ease-spring) both;
+  animation-delay: calc(200ms + var(--i) * 110ms);
+}
+
+.paper-line {
+  position: relative;
+  flex: 1;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--c-surface-2);
+}
+
+.art-bubble {
+  position: absolute;
+  right: 0;
+  bottom: 8%;
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+  padding: 16px 18px;
+  border-radius: 18px 18px 4px 18px;
+  background: var(--c-text);
+  color: #fff;
+  box-shadow: var(--shadow-2);
+  transform: rotate(3deg);
+  opacity: 0;
+}
+
+.intro-slide[data-active="true"] .art-bubble {
+  animation: slide-in-right 620ms var(--ease-spring) 1.1s both;
+}
+
+.bubble-ko {
+  font-size: clamp(24px, 7vw, 30px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.bubble-sound {
+  color: var(--c-accent);
+}
+
+@keyframes sweep {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(40px) rotate(8deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(3deg);
+  }
+}
+
+/* 3. 근무 막대 + 명세서 */
+.art-chart {
+  position: absolute;
+  top: 6%;
+  left: 2%;
+  width: 70%;
+  height: 58%;
+  padding: 16px;
+  border-radius: 18px;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chart-head {
+  color: var(--c-ok);
+}
+
+.chart-bars {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.chart-bar {
+  flex: 1;
+  height: var(--h);
+  border-radius: 6px 6px 3px 3px;
+  background: linear-gradient(180deg, var(--c-ok), #2f9a63);
+  transform: scaleY(0.08);
+  transform-origin: bottom;
+}
+
+.intro-slide[data-active="true"] .chart-bar {
+  animation: grow 700ms var(--ease-spring) both;
+  animation-delay: calc(200ms + var(--i) * 70ms);
+}
+
+.art-receipt {
+  position: absolute;
+  right: 0;
+  bottom: 4%;
+  display: grid;
+  gap: 12px;
+  width: 60%;
+  padding: 18px 16px;
+  border-radius: 16px;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-2);
+  transform: rotate(4deg);
+}
+
+.receipt-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.receipt-line {
+  flex: 1;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--c-surface-2);
+}
+
+.receipt-mark {
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-pill);
+  opacity: 0;
+}
+
+.receipt-mark-ok {
+  background: var(--c-ok-weak);
+  color: var(--c-ok);
+}
+
+.receipt-mark-warn {
+  background: var(--c-warn-weak);
+  color: var(--c-warn);
+}
+
+.intro-slide[data-active="true"] .receipt-mark {
+  animation: pop-in 420ms var(--ease-spring) both;
+  animation-delay: calc(1s + var(--i) * 160ms);
+}
+
+@keyframes grow {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+/* 4. 달력 + 휴대폰 */
+.art-cal {
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 66%;
+  padding: 16px;
+  border-radius: 18px;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-2);
+  transform: rotate(-4deg);
+}
+
+.cal-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: var(--c-muted);
+}
+
+.cal-bell {
+  color: #c98f00;
+  transform-origin: 50% 10%;
+}
+
+.intro-slide[data-active="true"] .cal-bell {
+  animation: wiggle 900ms ease-in-out 700ms 2;
+}
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.cal-day {
+  aspect-ratio: 1;
+  border-radius: 6px;
+  background: var(--c-surface-2);
+}
+
+.cal-day-on {
+  background: var(--c-accent);
+}
+
+.intro-slide[data-active="true"] .cal-day-on {
+  animation: ring-pulse 1.6s var(--ease-out) 400ms infinite;
+}
+
+.art-phone {
+  position: absolute;
+  right: 6%;
+  bottom: 2%;
+  display: grid;
+  place-items: center;
+  width: 42%;
+  aspect-ratio: 0.56;
+  border-radius: 24px;
+  background: var(--c-text);
+  box-shadow: var(--shadow-2), inset 0 0 0 6px #2b2d33;
+  transform: rotate(5deg);
+}
+
+.phone-guard {
+  color: #fff;
+  opacity: 0;
+}
+
+.intro-slide[data-active="true"] .phone-guard {
+  animation: pop-in 560ms var(--ease-spring) 900ms both;
+}
+
+.phone-spark {
+  position: absolute;
+  color: var(--c-accent);
+  opacity: 0;
+}
+
+.phone-spark-1 {
+  top: 24%;
+  right: 20%;
+}
+
+.phone-spark-2 {
+  bottom: 30%;
+  left: 22%;
+}
+
+.intro-slide[data-active="true"] .phone-spark {
+  animation: twinkle 1.8s ease-in-out 1.3s infinite;
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(16deg);
+  }
+  40% {
+    transform: rotate(-12deg);
+  }
+  60% {
+    transform: rotate(8deg);
+  }
+  80% {
+    transform: rotate(-4deg);
+  }
+}
+
+@keyframes ring-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(244, 184, 41, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(244, 184, 41, 0);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes blob {
+  0%,
+  100% {
+    border-radius: 46% 54% 52% 48% / 52% 44% 56% 48%;
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    border-radius: 54% 46% 44% 56% / 46% 56% 44% 54%;
+    transform: rotate(14deg) scale(1.04);
+  }
+}
+
+@media (max-height: 640px) {
+  .intro-art {
+    height: 38vh;
+  }
+
+  .intro-title {
+    font-size: 23px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ring-dot {
+    fill: var(--c-primary);
+  }
+
+  .ring-dot-first {
+    fill: var(--c-accent);
+  }
+
+  .ring-check,
+  .paper-no,
+  .art-bubble,
+  .receipt-mark,
+  .phone-guard {
+    opacity: 1;
+  }
+
+  .chart-bar {
+    transform: none;
+  }
+
+  .paper-row-on::before {
+    transform: none;
+  }
+}
