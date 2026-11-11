@@ -1,0 +1,2036 @@
+{
+  "version": 1,
+  "model": "supertonic-3",
+  "voice": "F5",
+  "totalSteps": 8,
+  "format": {
+    "codec": "mp3",
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitrateKbps": 32
+  },
+  "entries": [
+    {
+      "lang": "ko",
+      "key": "a02ddae7",
+      "file": "ko/a02ddae7.mp3",
+      "text": "4대보험"
+    },
+    {
+      "lang": "ko",
+      "key": "08d9d520",
+      "file": "ko/08d9d520.mp3",
+      "text": "건강보험"
+    },
+    {
+      "lang": "ko",
+      "key": "85c53000",
+      "file": "ko/85c53000.mp3",
+      "text": "고용보험"
+    },
+    {
+      "lang": "ko",
+      "key": "477a0bc0",
+      "file": "ko/477a0bc0.mp3",
+      "text": "고향으로 송금하고 싶어요. 수수료가 얼마예요?"
+    },
+    {
+      "lang": "ko",
+      "key": "b6847616",
+      "file": "ko/b6847616.mp3",
+      "text": "공제"
+    },
+    {
+      "lang": "ko",
+      "key": "d08180e3",
+      "file": "ko/d08180e3.mp3",
+      "text": "과세"
+    },
+    {
+      "lang": "ko",
+      "key": "effe7175",
+      "file": "ko/effe7175.mp3",
+      "text": "교통카드 하나 주세요. 만 원 충전해 주세요."
+    },
+    {
+      "lang": "ko",
+      "key": "a73b7216",
+      "file": "ko/a73b7216.mp3",
+      "text": "국민연금"
+    },
+    {
+      "lang": "ko",
+      "key": "2543e298",
+      "file": "ko/2543e298.mp3",
+      "text": "국제 택배를 보내고 싶어요. 얼마나 걸려요?"
+    },
+    {
+      "lang": "ko",
+      "key": "b1350548",
+      "file": "ko/b1350548.mp3",
+      "text": "근로계약서"
+    },
+    {
+      "lang": "ko",
+      "key": "6d25163e",
+      "file": "ko/6d25163e.mp3",
+      "text": "근로계약서 사본을 한 부 받을 수 있을까요?"
+    },
+    {
+      "lang": "ko",
+      "key": "0b9b31a9",
+      "file": "ko/0b9b31a9.mp3",
+      "text": "급여명세서"
+    },
+    {
+      "lang": "ko",
+      "key": "e01765f2",
+      "file": "ko/e01765f2.mp3",
+      "text": "기본급"
+    },
+    {
+      "lang": "ko",
+      "key": "1ecae1e1",
+      "file": "ko/1ecae1e1.mp3",
+      "text": "다시 한 번 말해 주세요."
+    },
+    {
+      "lang": "ko",
+      "key": "350f1134",
+      "file": "ko/350f1134.mp3",
+      "text": "도와주셔서 감사합니다."
+    },
+    {
+      "lang": "ko",
+      "key": "adf5df21",
+      "file": "ko/adf5df21.mp3",
+      "text": "러시아어 통역이 가능한가요?"
+    },
+    {
+      "lang": "ko",
+      "key": "15a7a45c",
+      "file": "ko/15a7a45c.mp3",
+      "text": "몸이 아파서 오늘 병원에 가야 해요."
+    },
+    {
+      "lang": "ko",
+      "key": "6a416a67",
+      "file": "ko/6a416a67.mp3",
+      "text": "무엇을 더 가져와야 해요?"
+    },
+    {
+      "lang": "ko",
+      "key": "1b51f725",
+      "file": "ko/1b51f725.mp3",
+      "text": "베트남어 통역이 가능한가요?"
+    },
+    {
+      "lang": "ko",
+      "key": "db198e97",
+      "file": "ko/db198e97.mp3",
+      "text": "베트남으로 송금하고 싶어요. 수수료가 얼마예요?"
+    },
+    {
+      "lang": "ko",
+      "key": "7cb0fa42",
+      "file": "ko/7cb0fa42.mp3",
+      "text": "봉투 하나 주세요. 카드로 계산할게요."
+    },
+    {
+      "lang": "ko",
+      "key": "5924953d",
+      "file": "ko/5924953d.mp3",
+      "text": "비과세"
+    },
+    {
+      "lang": "ko",
+      "key": "465af6d5",
+      "file": "ko/465af6d5.mp3",
+      "text": "사람이 다쳤어요. 빨리 와 주세요."
+    },
+    {
+      "lang": "ko",
+      "key": "440f525e",
+      "file": "ko/440f525e.mp3",
+      "text": "사업자등록번호"
+    },
+    {
+      "lang": "ko",
+      "key": "e5cbac32",
+      "file": "ko/e5cbac32.mp3",
+      "text": "사업장 변경"
+    },
+    {
+      "lang": "ko",
+      "key": "d646d307",
+      "file": "ko/d646d307.mp3",
+      "text": "산재보험"
+    },
+    {
+      "lang": "ko",
+      "key": "89336fee",
+      "file": "ko/89336fee.mp3",
+      "text": "상여금"
+    },
+    {
+      "lang": "ko",
+      "key": "a951003a",
+      "file": "ko/a951003a.mp3",
+      "text": "선불 유심 개통하고 싶어요. 여권 여기 있어요."
+    },
+    {
+      "lang": "ko",
+      "key": "55f62729",
+      "file": "ko/55f62729.mp3",
+      "text": "세탁기는 언제 쓸 수 있어요?"
+    },
+    {
+      "lang": "ko",
+      "key": "31b0607c",
+      "file": "ko/31b0607c.mp3",
+      "text": "소득세"
+    },
+    {
+      "lang": "ko",
+      "key": "fa2b2a62",
+      "file": "ko/fa2b2a62.mp3",
+      "text": "식대"
+    },
+    {
+      "lang": "ko",
+      "key": "2d457875",
+      "file": "ko/2d457875.mp3",
+      "text": "실수령액"
+    },
+    {
+      "lang": "ko",
+      "key": "0951034c",
+      "file": "ko/0951034c.mp3",
+      "text": "야간근로수당"
+    },
+    {
+      "lang": "ko",
+      "key": "81298932",
+      "file": "ko/81298932.mp3",
+      "text": "언제 다시 오면 돼요?"
+    },
+    {
+      "lang": "ko",
+      "key": "9ec17d19",
+      "file": "ko/9ec17d19.mp3",
+      "text": "여기가 아파요."
+    },
+    {
+      "lang": "ko",
+      "key": "b7edbd0d",
+      "file": "ko/b7edbd0d.mp3",
+      "text": "여기에 써 주세요."
+    },
+    {
+      "lang": "ko",
+      "key": "0aedd752",
+      "file": "ko/0aedd752.mp3",
+      "text": "연말정산"
+    },
+    {
+      "lang": "ko",
+      "key": "fc208f1f",
+      "file": "ko/fc208f1f.mp3",
+      "text": "연말정산은 회사에서 해 주나요?"
+    },
+    {
+      "lang": "ko",
+      "key": "eac183b3",
+      "file": "ko/eac183b3.mp3",
+      "text": "연장근로수당"
+    },
+    {
+      "lang": "ko",
+      "key": "ab02e316",
+      "file": "ko/ab02e316.mp3",
+      "text": "영어 통역이 가능한가요?"
+    },
+    {
+      "lang": "ko",
+      "key": "8cb79f53",
+      "file": "ko/8cb79f53.mp3",
+      "text": "오늘 몇 시까지 일해요?"
+    },
+    {
+      "lang": "ko",
+      "key": "70c5180a",
+      "file": "ko/70c5180a.mp3",
+      "text": "외국인등록"
+    },
+    {
+      "lang": "ko",
+      "key": "cb9bc000",
+      "file": "ko/cb9bc000.mp3",
+      "text": "외국인등록 하러 왔어요."
+    },
+    {
+      "lang": "ko",
+      "key": "fd3c62ba",
+      "file": "ko/fd3c62ba.mp3",
+      "text": "외국인등록번호"
+    },
+    {
+      "lang": "ko",
+      "key": "1e68f0b5",
+      "file": "ko/1e68f0b5.mp3",
+      "text": "외국인등록증"
+    },
+    {
+      "lang": "ko",
+      "key": "ee8f0eea",
+      "file": "ko/ee8f0eea.mp3",
+      "text": "외국인등록증 받으러 왔어요."
+    },
+    {
+      "lang": "ko",
+      "key": "57f33d9d",
+      "file": "ko/57f33d9d.mp3",
+      "text": "외국인등록증으로 요금제를 바꾸고 싶어요."
+    },
+    {
+      "lang": "ko",
+      "key": "e2097bb0",
+      "file": "ko/e2097bb0.mp3",
+      "text": "외국인등록증을 잃어버렸어요. 어떻게 해야 해요?"
+    },
+    {
+      "lang": "ko",
+      "key": "94e395c7",
+      "file": "ko/94e395c7.mp3",
+      "text": "우즈베크어 통역이 가능한가요?"
+    },
+    {
+      "lang": "ko",
+      "key": "5738c84d",
+      "file": "ko/5738c84d.mp3",
+      "text": "우즈베키스탄으로 송금하고 싶어요. 수수료가 얼마예요?"
+    },
+    {
+      "lang": "ko",
+      "key": "7fcd6df3",
+      "file": "ko/7fcd6df3.mp3",
+      "text": "월급 받을 통장을 만들고 싶어요."
+    },
+    {
+      "lang": "ko",
+      "key": "bfe791fc",
+      "file": "ko/bfe791fc.mp3",
+      "text": "이 서류는 어디에 내요?"
+    },
+    {
+      "lang": "ko",
+      "key": "16d7a0ab",
+      "file": "ko/16d7a0ab.mp3",
+      "text": "이 칸에는 무엇을 써야 해요?"
+    },
+    {
+      "lang": "ko",
+      "key": "2f2522d4",
+      "file": "ko/2f2522d4.mp3",
+      "text": "이 통장으로 체크카드를 만들 수 있어요?"
+    },
+    {
+      "lang": "ko",
+      "key": "111ebec2",
+      "file": "ko/111ebec2.mp3",
+      "text": "이거 얼마예요?"
+    },
+    {
+      "lang": "ko",
+      "key": "ba423369",
+      "file": "ko/ba423369.mp3",
+      "text": "이번 달 급여명세서를 받을 수 있을까요?"
+    },
+    {
+      "lang": "ko",
+      "key": "081cd6ca",
+      "file": "ko/081cd6ca.mp3",
+      "text": "이사했어요. 체류지 변경 신고하러 왔어요."
+    },
+    {
+      "lang": "ko",
+      "key": "a8a2f02a",
+      "file": "ko/a8a2f02a.mp3",
+      "text": "일하다가 다쳤어요. 병원에 가고 싶어요."
+    },
+    {
+      "lang": "ko",
+      "key": "39a8c625",
+      "file": "ko/39a8c625.mp3",
+      "text": "장기요양보험"
+    },
+    {
+      "lang": "ko",
+      "key": "2d605346",
+      "file": "ko/2d605346.mp3",
+      "text": "재직증명서"
+    },
+    {
+      "lang": "ko",
+      "key": "74342ac1",
+      "file": "ko/74342ac1.mp3",
+      "text": "접수증"
+    },
+    {
+      "lang": "ko",
+      "key": "5e9b5d93",
+      "file": "ko/5e9b5d93.mp3",
+      "text": "제 체류기간이 언제까지인지 알고 싶어요."
+    },
+    {
+      "lang": "ko",
+      "key": "945c4464",
+      "file": "ko/945c4464.mp3",
+      "text": "제가 건강보험에 가입됐는지 확인하고 싶어요."
+    },
+    {
+      "lang": "ko",
+      "key": "03ce058e",
+      "file": "ko/03ce058e.mp3",
+      "text": "제가 국민연금에 가입됐는지 확인하고 싶어요."
+    },
+    {
+      "lang": "ko",
+      "key": "9c24f43c",
+      "file": "ko/9c24f43c.mp3",
+      "text": "종량제 봉투 20리터 주세요."
+    },
+    {
+      "lang": "ko",
+      "key": "6bb9ae1c",
+      "file": "ko/6bb9ae1c.mp3",
+      "text": "주휴수당"
+    },
+    {
+      "lang": "ko",
+      "key": "a1585605",
+      "file": "ko/a1585605.mp3",
+      "text": "중국어 통역이 가능한가요?"
+    },
+    {
+      "lang": "ko",
+      "key": "b064b537",
+      "file": "ko/b064b537.mp3",
+      "text": "중국으로 송금하고 싶어요. 수수료가 얼마예요?"
+    },
+    {
+      "lang": "ko",
+      "key": "0049f116",
+      "file": "ko/0049f116.mp3",
+      "text": "지급총액"
+    },
+    {
+      "lang": "ko",
+      "key": "6178babd",
+      "file": "ko/6178babd.mp3",
+      "text": "지방소득세"
+    },
+    {
+      "lang": "ko",
+      "key": "4e0ef94c",
+      "file": "ko/4e0ef94c.mp3",
+      "text": "처음 왔어요. 진료 받고 싶어요."
+    },
+    {
+      "lang": "ko",
+      "key": "0fbcd916",
+      "file": "ko/0fbcd916.mp3",
+      "text": "체류기간 연장"
+    },
+    {
+      "lang": "ko",
+      "key": "fe958408",
+      "file": "ko/fe958408.mp3",
+      "text": "체류자격"
+    },
+    {
+      "lang": "ko",
+      "key": "c869b2e1",
+      "file": "ko/c869b2e1.mp3",
+      "text": "체류지"
+    },
+    {
+      "lang": "ko",
+      "key": "d04beb3f",
+      "file": "ko/d04beb3f.mp3",
+      "text": "체크카드"
+    },
+    {
+      "lang": "ko",
+      "key": "5a53804f",
+      "file": "ko/5a53804f.mp3",
+      "text": "최저임금"
+    },
+    {
+      "lang": "ko",
+      "key": "d125ed07",
+      "file": "ko/d125ed07.mp3",
+      "text": "출근 시간과 퇴근 시간을 어디에 적어요?"
+    },
+    {
+      "lang": "ko",
+      "key": "21ed6ea9",
+      "file": "ko/21ed6ea9.mp3",
+      "text": "출입국 방문 예약을 하고 싶어요."
+    },
+    {
+      "lang": "ko",
+      "key": "9b1036b5",
+      "file": "ko/9b1036b5.mp3",
+      "text": "출입국·외국인관서"
+    },
+    {
+      "lang": "ko",
+      "key": "dc5ef1f4",
+      "file": "ko/dc5ef1f4.mp3",
+      "text": "태국어 통역이 가능한가요?"
+    },
+    {
+      "lang": "ko",
+      "key": "f5b5a7fc",
+      "file": "ko/f5b5a7fc.mp3",
+      "text": "태국으로 송금하고 싶어요. 수수료가 얼마예요?"
+    },
+    {
+      "lang": "ko",
+      "key": "8ce168e9",
+      "file": "ko/8ce168e9.mp3",
+      "text": "통상임금"
+    },
+    {
+      "lang": "ko",
+      "key": "a34c1da2",
+      "file": "ko/a34c1da2.mp3",
+      "text": "통역을 연결해 주실 수 있어요?"
+    },
+    {
+      "lang": "ko",
+      "key": "2cacd931",
+      "file": "ko/2cacd931.mp3",
+      "text": "통장"
+    },
+    {
+      "lang": "ko",
+      "key": "8731b1b8",
+      "file": "ko/8731b1b8.mp3",
+      "text": "퇴직금"
+    },
+    {
+      "lang": "ko",
+      "key": "c9defcdd",
+      "file": "ko/c9defcdd.mp3",
+      "text": "하이코리아"
+    },
+    {
+      "lang": "ko",
+      "key": "aded254f",
+      "file": "ko/aded254f.mp3",
+      "text": "한 달 동안 감사했어요. 앞으로도 잘 부탁드려요."
+    },
+    {
+      "lang": "ko",
+      "key": "2d968ce5",
+      "file": "ko/2d968ce5.mp3",
+      "text": "한국어 수업을 듣고 싶어요. 무료예요?"
+    },
+    {
+      "lang": "ko",
+      "key": "d94845fb",
+      "file": "ko/d94845fb.mp3",
+      "text": "한국어를 잘 못해요. 천천히 말해 주세요."
+    },
+    {
+      "lang": "ko",
+      "key": "c6668f2d",
+      "file": "ko/c6668f2d.mp3",
+      "text": "화장실이 어디예요?"
+    },
+    {
+      "lang": "ko",
+      "key": "e1fe8c7c",
+      "file": "ko/e1fe8c7c.mp3",
+      "text": "휴일근로수당"
+    },
+    {
+      "lang": "vi",
+      "key": "ed07eaf3",
+      "file": "vi/ed07eaf3.mp3",
+      "text": "4 loại bảo hiểm xã hội"
+    },
+    {
+      "lang": "vi",
+      "key": "d15772e7",
+      "file": "vi/d15772e7.mp3",
+      "text": "Bạn có thể kết nối phiên dịch giúp tôi không?"
+    },
+    {
+      "lang": "vi",
+      "key": "04358a4e",
+      "file": "vi/04358a4e.mp3",
+      "text": "Bảng lương"
+    },
+    {
+      "lang": "vi",
+      "key": "e8865a07",
+      "file": "vi/e8865a07.mp3",
+      "text": "Bảo hiểm chăm sóc dài hạn"
+    },
+    {
+      "lang": "vi",
+      "key": "e9cc9f3b",
+      "file": "vi/e9cc9f3b.mp3",
+      "text": "Bảo hiểm tai nạn lao động"
+    },
+    {
+      "lang": "vi",
+      "key": "6356a213",
+      "file": "vi/6356a213.mp3",
+      "text": "Bảo hiểm việc làm"
+    },
+    {
+      "lang": "vi",
+      "key": "b04bd56b",
+      "file": "vi/b04bd56b.mp3",
+      "text": "Bảo hiểm y tế"
+    },
+    {
+      "lang": "vi",
+      "key": "14127564",
+      "file": "vi/14127564.mp3",
+      "text": "Cho tôi một cái túi. Tôi sẽ thanh toán bằng thẻ."
+    },
+    {
+      "lang": "vi",
+      "key": "179744c8",
+      "file": "vi/179744c8.mp3",
+      "text": "Cho tôi một thẻ giao thông. Nạp giúp tôi 10.000 won."
+    },
+    {
+      "lang": "vi",
+      "key": "35dfd735",
+      "file": "vi/35dfd735.mp3",
+      "text": "Cho tôi túi rác theo quy định loại 20 lít."
+    },
+    {
+      "lang": "vi",
+      "key": "87704474",
+      "file": "vi/87704474.mp3",
+      "text": "Chuyển nơi làm việc"
+    },
+    {
+      "lang": "vi",
+      "key": "08a25d9f",
+      "file": "vi/08a25d9f.mp3",
+      "text": "Chịu thuế"
+    },
+    {
+      "lang": "vi",
+      "key": "e11147eb",
+      "file": "vi/e11147eb.mp3",
+      "text": "Cái này bao nhiêu tiền?"
+    },
+    {
+      "lang": "vi",
+      "key": "1a27c4dc",
+      "file": "vi/1a27c4dc.mp3",
+      "text": "Có người bị thương. Xin hãy đến nhanh."
+    },
+    {
+      "lang": "vi",
+      "key": "738e081c",
+      "file": "vi/738e081c.mp3",
+      "text": "Có phiên dịch tiếng Việt không ạ?"
+    },
+    {
+      "lang": "vi",
+      "key": "fa2b7ce0",
+      "file": "vi/fa2b7ce0.mp3",
+      "text": "Công ty có làm quyết toán thuế cuối năm cho tôi không?"
+    },
+    {
+      "lang": "vi",
+      "key": "50f2a546",
+      "file": "vi/50f2a546.mp3",
+      "text": "Cơ quan xuất nhập cảnh"
+    },
+    {
+      "lang": "vi",
+      "key": "ba3daef3",
+      "file": "vi/ba3daef3.mp3",
+      "text": "Cảm ơn mọi người trong một tháng qua. Mong được giúp đỡ tiếp."
+    },
+    {
+      "lang": "vi",
+      "key": "d50ed7d1",
+      "file": "vi/d50ed7d1.mp3",
+      "text": "Cảm ơn vì đã giúp tôi."
+    },
+    {
+      "lang": "vi",
+      "key": "a2faaf28",
+      "file": "vi/a2faaf28.mp3",
+      "text": "Gia hạn thời gian lưu trú"
+    },
+    {
+      "lang": "vi",
+      "key": "ef19b54d",
+      "file": "vi/ef19b54d.mp3",
+      "text": "Giấy biên nhận hồ sơ"
+    },
+    {
+      "lang": "vi",
+      "key": "1016e5e2",
+      "file": "vi/1016e5e2.mp3",
+      "text": "Giấy tờ này nộp ở đâu ạ?"
+    },
+    {
+      "lang": "vi",
+      "key": "53aec504",
+      "file": "vi/53aec504.mp3",
+      "text": "Giấy xác nhận đang làm việc"
+    },
+    {
+      "lang": "vi",
+      "key": "d29a6a91",
+      "file": "vi/d29a6a91.mp3",
+      "text": "HiKorea (trang web xuất nhập cảnh)"
+    },
+    {
+      "lang": "vi",
+      "key": "4ca96971",
+      "file": "vi/4ca96971.mp3",
+      "text": "Hôm nay tôi làm việc đến mấy giờ?"
+    },
+    {
+      "lang": "vi",
+      "key": "8ad75a81",
+      "file": "vi/8ad75a81.mp3",
+      "text": "Hợp đồng lao động"
+    },
+    {
+      "lang": "vi",
+      "key": "4cec2ef0",
+      "file": "vi/4cec2ef0.mp3",
+      "text": "Khi nào tôi có thể dùng máy giặt?"
+    },
+    {
+      "lang": "vi",
+      "key": "7322e458",
+      "file": "vi/7322e458.mp3",
+      "text": "Khi nào tôi nên quay lại ạ?"
+    },
+    {
+      "lang": "vi",
+      "key": "9a8db329",
+      "file": "vi/9a8db329.mp3",
+      "text": "Không chịu thuế"
+    },
+    {
+      "lang": "vi",
+      "key": "1ffbeef0",
+      "file": "vi/1ffbeef0.mp3",
+      "text": "Khấu trừ"
+    },
+    {
+      "lang": "vi",
+      "key": "5544ffa5",
+      "file": "vi/5544ffa5.mp3",
+      "text": "Lương cơ bản"
+    },
+    {
+      "lang": "vi",
+      "key": "419168bd",
+      "file": "vi/419168bd.mp3",
+      "text": "Lương hưu quốc dân"
+    },
+    {
+      "lang": "vi",
+      "key": "346cb4bb",
+      "file": "vi/346cb4bb.mp3",
+      "text": "Lương thông thường"
+    },
+    {
+      "lang": "vi",
+      "key": "90445483",
+      "file": "vi/90445483.mp3",
+      "text": "Lương thực nhận"
+    },
+    {
+      "lang": "vi",
+      "key": "620a5713",
+      "file": "vi/620a5713.mp3",
+      "text": "Lương tối thiểu"
+    },
+    {
+      "lang": "vi",
+      "key": "253ffa2d",
+      "file": "vi/253ffa2d.mp3",
+      "text": "Mã số đăng ký kinh doanh"
+    },
+    {
+      "lang": "vi",
+      "key": "2162dd20",
+      "file": "vi/2162dd20.mp3",
+      "text": "Nhà vệ sinh ở đâu ạ?"
+    },
+    {
+      "lang": "vi",
+      "key": "4f18bced",
+      "file": "vi/4f18bced.mp3",
+      "text": "Nơi cư trú"
+    },
+    {
+      "lang": "vi",
+      "key": "7b773908",
+      "file": "vi/7b773908.mp3",
+      "text": "Phụ cấp làm ca đêm"
+    },
+    {
+      "lang": "vi",
+      "key": "cffe829a",
+      "file": "vi/cffe829a.mp3",
+      "text": "Phụ cấp làm ngày nghỉ"
+    },
+    {
+      "lang": "vi",
+      "key": "baac1750",
+      "file": "vi/baac1750.mp3",
+      "text": "Phụ cấp làm thêm giờ"
+    },
+    {
+      "lang": "vi",
+      "key": "0d156607",
+      "file": "vi/0d156607.mp3",
+      "text": "Phụ cấp ngày nghỉ hằng tuần"
+    },
+    {
+      "lang": "vi",
+      "key": "ef3f1082",
+      "file": "vi/ef3f1082.mp3",
+      "text": "Quyết toán thuế cuối năm"
+    },
+    {
+      "lang": "vi",
+      "key": "606f0477",
+      "file": "vi/606f0477.mp3",
+      "text": "Số đăng ký người nước ngoài"
+    },
+    {
+      "lang": "vi",
+      "key": "39c7b31e",
+      "file": "vi/39c7b31e.mp3",
+      "text": "Sổ tài khoản ngân hàng"
+    },
+    {
+      "lang": "vi",
+      "key": "87a9b4a8",
+      "file": "vi/87a9b4a8.mp3",
+      "text": "Thuế thu nhập"
+    },
+    {
+      "lang": "vi",
+      "key": "fdced105",
+      "file": "vi/fdced105.mp3",
+      "text": "Thuế thu nhập địa phương"
+    },
+    {
+      "lang": "vi",
+      "key": "c0b1e120",
+      "file": "vi/c0b1e120.mp3",
+      "text": "Thẻ ghi nợ"
+    },
+    {
+      "lang": "vi",
+      "key": "b086631c",
+      "file": "vi/b086631c.mp3",
+      "text": "Thẻ đăng ký người nước ngoài"
+    },
+    {
+      "lang": "vi",
+      "key": "a8e42afc",
+      "file": "vi/a8e42afc.mp3",
+      "text": "Tiền thưởng"
+    },
+    {
+      "lang": "vi",
+      "key": "d6caea27",
+      "file": "vi/d6caea27.mp3",
+      "text": "Tiền ăn"
+    },
+    {
+      "lang": "vi",
+      "key": "58148dfb",
+      "file": "vi/58148dfb.mp3",
+      "text": "Trợ cấp thôi việc"
+    },
+    {
+      "lang": "vi",
+      "key": "3ecd604c",
+      "file": "vi/3ecd604c.mp3",
+      "text": "Tôi bị mất thẻ đăng ký người nước ngoài. Tôi phải làm gì?"
+    },
+    {
+      "lang": "vi",
+      "key": "df928bc4",
+      "file": "vi/df928bc4.mp3",
+      "text": "Tôi bị thương khi đang làm việc. Tôi muốn đi bệnh viện."
+    },
+    {
+      "lang": "vi",
+      "key": "bbc87a55",
+      "file": "vi/bbc87a55.mp3",
+      "text": "Tôi bị đau ở chỗ này."
+    },
+    {
+      "lang": "vi",
+      "key": "e5454ce0",
+      "file": "vi/e5454ce0.mp3",
+      "text": "Tôi bị ốm nên hôm nay phải đi bệnh viện."
+    },
+    {
+      "lang": "vi",
+      "key": "60dcf81b",
+      "file": "vi/60dcf81b.mp3",
+      "text": "Tôi có thể làm thẻ ghi nợ cho tài khoản này không?"
+    },
+    {
+      "lang": "vi",
+      "key": "f96e6455",
+      "file": "vi/f96e6455.mp3",
+      "text": "Tôi có thể nhận bảng lương tháng này không?"
+    },
+    {
+      "lang": "vi",
+      "key": "de26bfe1",
+      "file": "vi/de26bfe1.mp3",
+      "text": "Tôi có thể nhận một bản sao hợp đồng lao động không?"
+    },
+    {
+      "lang": "vi",
+      "key": "5492033c",
+      "file": "vi/5492033c.mp3",
+      "text": "Tôi cần mang thêm gì nữa ạ?"
+    },
+    {
+      "lang": "vi",
+      "key": "3472f8da",
+      "file": "vi/3472f8da.mp3",
+      "text": "Tôi ghi giờ đi làm và giờ tan làm ở đâu?"
+    },
+    {
+      "lang": "vi",
+      "key": "d84744e8",
+      "file": "vi/d84744e8.mp3",
+      "text": "Tôi không giỏi tiếng Hàn. Xin hãy nói chậm lại."
+    },
+    {
+      "lang": "vi",
+      "key": "f9d6ddb7",
+      "file": "vi/f9d6ddb7.mp3",
+      "text": "Tôi muốn biết thời hạn lưu trú của tôi đến khi nào."
+    },
+    {
+      "lang": "vi",
+      "key": "230fb366",
+      "file": "vi/230fb366.mp3",
+      "text": "Tôi muốn gửi bưu kiện quốc tế. Mất bao lâu?"
+    },
+    {
+      "lang": "vi",
+      "key": "ac4ab820",
+      "file": "vi/ac4ab820.mp3",
+      "text": "Tôi muốn gửi tiền về Việt Nam. Phí là bao nhiêu?"
+    },
+    {
+      "lang": "vi",
+      "key": "1a65e6e9",
+      "file": "vi/1a65e6e9.mp3",
+      "text": "Tôi muốn học lớp tiếng Hàn. Có miễn phí không?"
+    },
+    {
+      "lang": "vi",
+      "key": "2ed47f43",
+      "file": "vi/2ed47f43.mp3",
+      "text": "Tôi muốn kiểm tra xem mình đã được tham gia bảo hiểm y tế chưa."
+    },
+    {
+      "lang": "vi",
+      "key": "f742a842",
+      "file": "vi/f742a842.mp3",
+      "text": "Tôi muốn kiểm tra xem mình đã được tham gia lương hưu quốc gia chưa."
+    },
+    {
+      "lang": "vi",
+      "key": "34bf86a1",
+      "file": "vi/34bf86a1.mp3",
+      "text": "Tôi muốn mở SIM trả trước. Hộ chiếu của tôi đây."
+    },
+    {
+      "lang": "vi",
+      "key": "ac08331d",
+      "file": "vi/ac08331d.mp3",
+      "text": "Tôi muốn mở tài khoản để nhận lương."
+    },
+    {
+      "lang": "vi",
+      "key": "0cc39763",
+      "file": "vi/0cc39763.mp3",
+      "text": "Tôi muốn đặt lịch đến văn phòng xuất nhập cảnh."
+    },
+    {
+      "lang": "vi",
+      "key": "8124757b",
+      "file": "vi/8124757b.mp3",
+      "text": "Tôi muốn đổi gói cước bằng thẻ đăng ký người nước ngoài."
+    },
+    {
+      "lang": "vi",
+      "key": "f42ae157",
+      "file": "vi/f42ae157.mp3",
+      "text": "Tôi đã chuyển nhà. Tôi đến để khai báo đổi nơi lưu trú."
+    },
+    {
+      "lang": "vi",
+      "key": "2c9742ea",
+      "file": "vi/2c9742ea.mp3",
+      "text": "Tôi đến lần đầu. Tôi muốn được khám bệnh."
+    },
+    {
+      "lang": "vi",
+      "key": "702061c6",
+      "file": "vi/702061c6.mp3",
+      "text": "Tôi đến để nhận thẻ đăng ký người nước ngoài."
+    },
+    {
+      "lang": "vi",
+      "key": "f792ab80",
+      "file": "vi/f792ab80.mp3",
+      "text": "Tôi đến để đăng ký người nước ngoài."
+    },
+    {
+      "lang": "vi",
+      "key": "ab4ad6ae",
+      "file": "vi/ab4ad6ae.mp3",
+      "text": "Tư cách lưu trú"
+    },
+    {
+      "lang": "vi",
+      "key": "5b75a94e",
+      "file": "vi/5b75a94e.mp3",
+      "text": "Tổng tiền lương"
+    },
+    {
+      "lang": "vi",
+      "key": "17e77f8e",
+      "file": "vi/17e77f8e.mp3",
+      "text": "Xin hãy nói lại một lần nữa."
+    },
+    {
+      "lang": "vi",
+      "key": "289c0d02",
+      "file": "vi/289c0d02.mp3",
+      "text": "Xin hãy viết vào đây."
+    },
+    {
+      "lang": "vi",
+      "key": "33d1f06a",
+      "file": "vi/33d1f06a.mp3",
+      "text": "Ô này cần viết gì ạ?"
+    },
+    {
+      "lang": "vi",
+      "key": "0bdf870a",
+      "file": "vi/0bdf870a.mp3",
+      "text": "Đăng ký người nước ngoài"
+    },
+    {
+      "lang": "en",
+      "key": "05414b5c",
+      "file": "en/05414b5c.mp3",
+      "text": "4 social insurances"
+    },
+    {
+      "lang": "en",
+      "key": "17fdf312",
+      "file": "en/17fdf312.mp3",
+      "text": "Application receipt"
+    },
+    {
+      "lang": "en",
+      "key": "c45fcfa5",
+      "file": "en/c45fcfa5.mp3",
+      "text": "Bank account"
+    },
+    {
+      "lang": "en",
+      "key": "4fc5fbd7",
+      "file": "en/4fc5fbd7.mp3",
+      "text": "Base pay"
+    },
+    {
+      "lang": "en",
+      "key": "ea5095d7",
+      "file": "en/ea5095d7.mp3",
+      "text": "Bonus"
+    },
+    {
+      "lang": "en",
+      "key": "0d80cf00",
+      "file": "en/0d80cf00.mp3",
+      "text": "Business registration number"
+    },
+    {
+      "lang": "en",
+      "key": "4165f7fc",
+      "file": "en/4165f7fc.mp3",
+      "text": "Can I get one copy of my employment contract?"
+    },
+    {
+      "lang": "en",
+      "key": "c89a74f4",
+      "file": "en/c89a74f4.mp3",
+      "text": "Can I get this month's payslip?"
+    },
+    {
+      "lang": "en",
+      "key": "ec16dff3",
+      "file": "en/ec16dff3.mp3",
+      "text": "Can I make a check card for this account?"
+    },
+    {
+      "lang": "en",
+      "key": "c991e539",
+      "file": "en/c991e539.mp3",
+      "text": "Change of workplace"
+    },
+    {
+      "lang": "en",
+      "key": "05c4148c",
+      "file": "en/05c4148c.mp3",
+      "text": "Could you connect me with an interpreter?"
+    },
+    {
+      "lang": "en",
+      "key": "99e16938",
+      "file": "en/99e16938.mp3",
+      "text": "Debit card"
+    },
+    {
+      "lang": "en",
+      "key": "788f094b",
+      "file": "en/788f094b.mp3",
+      "text": "Deduction"
+    },
+    {
+      "lang": "en",
+      "key": "bb26b0fa",
+      "file": "en/bb26b0fa.mp3",
+      "text": "Does the company do the year-end tax settlement for me?"
+    },
+    {
+      "lang": "en",
+      "key": "e27e89d4",
+      "file": "en/e27e89d4.mp3",
+      "text": "Employment contract"
+    },
+    {
+      "lang": "en",
+      "key": "86706c72",
+      "file": "en/86706c72.mp3",
+      "text": "Employment insurance"
+    },
+    {
+      "lang": "en",
+      "key": "8919bfc3",
+      "file": "en/8919bfc3.mp3",
+      "text": "Extension of stay"
+    },
+    {
+      "lang": "en",
+      "key": "7c6b75e0",
+      "file": "en/7c6b75e0.mp3",
+      "text": "Foreigner registration"
+    },
+    {
+      "lang": "en",
+      "key": "2d9a6bbe",
+      "file": "en/2d9a6bbe.mp3",
+      "text": "Foreigner registration card"
+    },
+    {
+      "lang": "en",
+      "key": "f32a42d1",
+      "file": "en/f32a42d1.mp3",
+      "text": "Foreigner registration number"
+    },
+    {
+      "lang": "en",
+      "key": "6ac86ac6",
+      "file": "en/6ac86ac6.mp3",
+      "text": "Health insurance"
+    },
+    {
+      "lang": "en",
+      "key": "c0cbb4d1",
+      "file": "en/c0cbb4d1.mp3",
+      "text": "HiKorea (immigration website)"
+    },
+    {
+      "lang": "en",
+      "key": "a9254c6b",
+      "file": "en/a9254c6b.mp3",
+      "text": "Holiday work pay"
+    },
+    {
+      "lang": "en",
+      "key": "609dfe2c",
+      "file": "en/609dfe2c.mp3",
+      "text": "How much is this?"
+    },
+    {
+      "lang": "en",
+      "key": "370093ee",
+      "file": "en/370093ee.mp3",
+      "text": "I am sick, so I have to go to the hospital today."
+    },
+    {
+      "lang": "en",
+      "key": "13d9ff9f",
+      "file": "en/13d9ff9f.mp3",
+      "text": "I came to do my foreigner registration."
+    },
+    {
+      "lang": "en",
+      "key": "b6162170",
+      "file": "en/b6162170.mp3",
+      "text": "I came to pick up my foreigner registration card."
+    },
+    {
+      "lang": "en",
+      "key": "0d962325",
+      "file": "en/0d962325.mp3",
+      "text": "I do not speak Korean well. Please speak slowly."
+    },
+    {
+      "lang": "en",
+      "key": "94e3b1d6",
+      "file": "en/94e3b1d6.mp3",
+      "text": "I got hurt while working. I want to go to the hospital."
+    },
+    {
+      "lang": "en",
+      "key": "2c2d92f9",
+      "file": "en/2c2d92f9.mp3",
+      "text": "I lost my foreigner registration card. What should I do?"
+    },
+    {
+      "lang": "en",
+      "key": "8c23bcd6",
+      "file": "en/8c23bcd6.mp3",
+      "text": "I moved. I came to report my new address."
+    },
+    {
+      "lang": "en",
+      "key": "50456911",
+      "file": "en/50456911.mp3",
+      "text": "I want to book a visit to the immigration office."
+    },
+    {
+      "lang": "en",
+      "key": "12705d11",
+      "file": "en/12705d11.mp3",
+      "text": "I want to change my phone plan with my foreigner registration card."
+    },
+    {
+      "lang": "en",
+      "key": "29ac7e10",
+      "file": "en/29ac7e10.mp3",
+      "text": "I want to check if I am signed up for health insurance."
+    },
+    {
+      "lang": "en",
+      "key": "3b8aafe1",
+      "file": "en/3b8aafe1.mp3",
+      "text": "I want to check if I am signed up for the national pension."
+    },
+    {
+      "lang": "en",
+      "key": "a0a02d3c",
+      "file": "en/a0a02d3c.mp3",
+      "text": "I want to know until when my stay period lasts."
+    },
+    {
+      "lang": "en",
+      "key": "7cabd7e9",
+      "file": "en/7cabd7e9.mp3",
+      "text": "I want to open a prepaid SIM. Here is my passport."
+    },
+    {
+      "lang": "en",
+      "key": "ee029315",
+      "file": "en/ee029315.mp3",
+      "text": "I want to open an account to get my salary."
+    },
+    {
+      "lang": "en",
+      "key": "e816181e",
+      "file": "en/e816181e.mp3",
+      "text": "I want to send an international parcel. How long does it take?"
+    },
+    {
+      "lang": "en",
+      "key": "f0802b88",
+      "file": "en/f0802b88.mp3",
+      "text": "I want to send money home. How much is the fee?"
+    },
+    {
+      "lang": "en",
+      "key": "8c234d7c",
+      "file": "en/8c234d7c.mp3",
+      "text": "I want to take a Korean class. Is it free?"
+    },
+    {
+      "lang": "en",
+      "key": "367fd746",
+      "file": "en/367fd746.mp3",
+      "text": "Immigration office"
+    },
+    {
+      "lang": "en",
+      "key": "46e5fefe",
+      "file": "en/46e5fefe.mp3",
+      "text": "Income tax"
+    },
+    {
+      "lang": "en",
+      "key": "a8d9613c",
+      "file": "en/a8d9613c.mp3",
+      "text": "Industrial accident insurance"
+    },
+    {
+      "lang": "en",
+      "key": "89460317",
+      "file": "en/89460317.mp3",
+      "text": "Is an English interpreter available?"
+    },
+    {
+      "lang": "en",
+      "key": "d5dd9a9f",
+      "file": "en/d5dd9a9f.mp3",
+      "text": "It hurts here."
+    },
+    {
+      "lang": "en",
+      "key": "d14fcc7f",
+      "file": "en/d14fcc7f.mp3",
+      "text": "Local income tax"
+    },
+    {
+      "lang": "en",
+      "key": "34fa2524",
+      "file": "en/34fa2524.mp3",
+      "text": "Long-term care insurance"
+    },
+    {
+      "lang": "en",
+      "key": "bcf10ca9",
+      "file": "en/bcf10ca9.mp3",
+      "text": "Meal allowance"
+    },
+    {
+      "lang": "en",
+      "key": "6a2d4318",
+      "file": "en/6a2d4318.mp3",
+      "text": "Minimum wage"
+    },
+    {
+      "lang": "en",
+      "key": "5d0b5e8c",
+      "file": "en/5d0b5e8c.mp3",
+      "text": "National pension"
+    },
+    {
+      "lang": "en",
+      "key": "a4c901f9",
+      "file": "en/a4c901f9.mp3",
+      "text": "Night work pay"
+    },
+    {
+      "lang": "en",
+      "key": "a379e207",
+      "file": "en/a379e207.mp3",
+      "text": "Non-taxable"
+    },
+    {
+      "lang": "en",
+      "key": "883caaf2",
+      "file": "en/883caaf2.mp3",
+      "text": "One 20-liter official trash bag, please."
+    },
+    {
+      "lang": "en",
+      "key": "2a94183e",
+      "file": "en/2a94183e.mp3",
+      "text": "One bag, please. I will pay by card."
+    },
+    {
+      "lang": "en",
+      "key": "d9288ac9",
+      "file": "en/d9288ac9.mp3",
+      "text": "One transit card, please. Please top it up with 10,000 won."
+    },
+    {
+      "lang": "en",
+      "key": "df3a2dc6",
+      "file": "en/df3a2dc6.mp3",
+      "text": "Ordinary wage"
+    },
+    {
+      "lang": "en",
+      "key": "02908d7d",
+      "file": "en/02908d7d.mp3",
+      "text": "Overtime pay"
+    },
+    {
+      "lang": "en",
+      "key": "58c74a28",
+      "file": "en/58c74a28.mp3",
+      "text": "Payslip"
+    },
+    {
+      "lang": "en",
+      "key": "fcec898d",
+      "file": "en/fcec898d.mp3",
+      "text": "Place of stay"
+    },
+    {
+      "lang": "en",
+      "key": "2cbab30a",
+      "file": "en/2cbab30a.mp3",
+      "text": "Please say it one more time."
+    },
+    {
+      "lang": "en",
+      "key": "d8a0e7b2",
+      "file": "en/d8a0e7b2.mp3",
+      "text": "Please write it here."
+    },
+    {
+      "lang": "en",
+      "key": "44f81c4f",
+      "file": "en/44f81c4f.mp3",
+      "text": "Proof of employment"
+    },
+    {
+      "lang": "en",
+      "key": "802d2f78",
+      "file": "en/802d2f78.mp3",
+      "text": "Severance pay"
+    },
+    {
+      "lang": "en",
+      "key": "f0e02e83",
+      "file": "en/f0e02e83.mp3",
+      "text": "Someone is hurt. Please come quickly."
+    },
+    {
+      "lang": "en",
+      "key": "5a092150",
+      "file": "en/5a092150.mp3",
+      "text": "Status of stay"
+    },
+    {
+      "lang": "en",
+      "key": "f659d097",
+      "file": "en/f659d097.mp3",
+      "text": "Take-home pay"
+    },
+    {
+      "lang": "en",
+      "key": "b1aecaed",
+      "file": "en/b1aecaed.mp3",
+      "text": "Taxable"
+    },
+    {
+      "lang": "en",
+      "key": "705ca720",
+      "file": "en/705ca720.mp3",
+      "text": "Thank you for this month. I look forward to working with you."
+    },
+    {
+      "lang": "en",
+      "key": "0bc26f8c",
+      "file": "en/0bc26f8c.mp3",
+      "text": "Thank you for your help."
+    },
+    {
+      "lang": "en",
+      "key": "12bdd814",
+      "file": "en/12bdd814.mp3",
+      "text": "This is my first visit. I want to see a doctor."
+    },
+    {
+      "lang": "en",
+      "key": "4a265ea8",
+      "file": "en/4a265ea8.mp3",
+      "text": "Total pay"
+    },
+    {
+      "lang": "en",
+      "key": "9ace8982",
+      "file": "en/9ace8982.mp3",
+      "text": "Until what time do I work today?"
+    },
+    {
+      "lang": "en",
+      "key": "e08646b8",
+      "file": "en/e08646b8.mp3",
+      "text": "Weekly paid day off"
+    },
+    {
+      "lang": "en",
+      "key": "e834a57c",
+      "file": "en/e834a57c.mp3",
+      "text": "What do I write in this box?"
+    },
+    {
+      "lang": "en",
+      "key": "8a1a3917",
+      "file": "en/8a1a3917.mp3",
+      "text": "What else do I need to bring?"
+    },
+    {
+      "lang": "en",
+      "key": "73278802",
+      "file": "en/73278802.mp3",
+      "text": "When can I use the washing machine?"
+    },
+    {
+      "lang": "en",
+      "key": "c69890c4",
+      "file": "en/c69890c4.mp3",
+      "text": "When should I come back?"
+    },
+    {
+      "lang": "en",
+      "key": "2e23becc",
+      "file": "en/2e23becc.mp3",
+      "text": "Where do I hand in this paper?"
+    },
+    {
+      "lang": "en",
+      "key": "1021e04f",
+      "file": "en/1021e04f.mp3",
+      "text": "Where do I write my start time and finish time?"
+    },
+    {
+      "lang": "en",
+      "key": "4ff4f3c4",
+      "file": "en/4ff4f3c4.mp3",
+      "text": "Where is the restroom?"
+    },
+    {
+      "lang": "en",
+      "key": "6128b47f",
+      "file": "en/6128b47f.mp3",
+      "text": "Year-end tax settlement"
+    },
+    {
+      "lang": "ru",
+      "key": "3fd3e9d9",
+      "file": "ru/3fd3e9d9.mp3",
+      "text": "4 вида соцстрахования"
+    },
+    {
+      "lang": "ru",
+      "key": "bd72ebd9",
+      "file": "ru/bd72ebd9.mp3",
+      "text": "HiKorea (миграционный сайт)"
+    },
+    {
+      "lang": "ru",
+      "key": "f2d5dee5",
+      "file": "ru/f2d5dee5.mp3",
+      "text": "Базовый оклад"
+    },
+    {
+      "lang": "ru",
+      "key": "a99257ff",
+      "file": "ru/a99257ff.mp3",
+      "text": "Банковская книжка (счёт)"
+    },
+    {
+      "lang": "ru",
+      "key": "d4b64c36",
+      "file": "ru/d4b64c36.mp3",
+      "text": "Выходное пособие"
+    },
+    {
+      "lang": "ru",
+      "key": "b1d2f032",
+      "file": "ru/b1d2f032.mp3",
+      "text": "Где записывать время прихода и время ухода с работы?"
+    },
+    {
+      "lang": "ru",
+      "key": "87634452",
+      "file": "ru/87634452.mp3",
+      "text": "Где туалет?"
+    },
+    {
+      "lang": "ru",
+      "key": "d3146a83",
+      "file": "ru/d3146a83.mp3",
+      "text": "Годовой перерасчёт налога"
+    },
+    {
+      "lang": "ru",
+      "key": "65303b23",
+      "file": "ru/65303b23.mp3",
+      "text": "Государственная пенсия"
+    },
+    {
+      "lang": "ru",
+      "key": "f47f404b",
+      "file": "ru/f47f404b.mp3",
+      "text": "Дайте, пожалуйста, один пакет. Я заплачу картой."
+    },
+    {
+      "lang": "ru",
+      "key": "31abb061",
+      "file": "ru/31abb061.mp3",
+      "text": "Дайте, пожалуйста, одну транспортную карту. Пополните её на 10 000 вон."
+    },
+    {
+      "lang": "ru",
+      "key": "90cea407",
+      "file": "ru/90cea407.mp3",
+      "text": "Дайте, пожалуйста, платный мешок для мусора на 20 литров."
+    },
+    {
+      "lang": "ru",
+      "key": "9c15fbce",
+      "file": "ru/9c15fbce.mp3",
+      "text": "Дебетовая карта"
+    },
+    {
+      "lang": "ru",
+      "key": "b598cf83",
+      "file": "ru/b598cf83.mp3",
+      "text": "Деньги на питание"
+    },
+    {
+      "lang": "ru",
+      "key": "8b37c950",
+      "file": "ru/8b37c950.mp3",
+      "text": "До скольки я сегодня работаю?"
+    },
+    {
+      "lang": "ru",
+      "key": "9106e06d",
+      "file": "ru/9106e06d.mp3",
+      "text": "Доплата за ночную работу"
+    },
+    {
+      "lang": "ru",
+      "key": "c96b0397",
+      "file": "ru/c96b0397.mp3",
+      "text": "Доплата за работу в выходной"
+    },
+    {
+      "lang": "ru",
+      "key": "c219eeec",
+      "file": "ru/c219eeec.mp3",
+      "text": "Доплата за сверхурочную работу"
+    },
+    {
+      "lang": "ru",
+      "key": "da30bb02",
+      "file": "ru/da30bb02.mp3",
+      "text": "Карта регистрации иностранца"
+    },
+    {
+      "lang": "ru",
+      "key": "7d67605c",
+      "file": "ru/7d67605c.mp3",
+      "text": "Когда мне прийти снова?"
+    },
+    {
+      "lang": "ru",
+      "key": "ddaf2f0c",
+      "file": "ru/ddaf2f0c.mp3",
+      "text": "Когда можно пользоваться стиральной машиной?"
+    },
+    {
+      "lang": "ru",
+      "key": "301f10b5",
+      "file": "ru/301f10b5.mp3",
+      "text": "Компания сама делает годовой перерасчёт налога?"
+    },
+    {
+      "lang": "ru",
+      "key": "f68631bf",
+      "file": "ru/f68631bf.mp3",
+      "text": "Куда сдавать этот документ?"
+    },
+    {
+      "lang": "ru",
+      "key": "420e4e72",
+      "file": "ru/420e4e72.mp3",
+      "text": "Медицинское страхование"
+    },
+    {
+      "lang": "ru",
+      "key": "6275bd01",
+      "file": "ru/6275bd01.mp3",
+      "text": "Местный подоходный налог"
+    },
+    {
+      "lang": "ru",
+      "key": "66ef6a0e",
+      "file": "ru/66ef6a0e.mp3",
+      "text": "Место пребывания"
+    },
+    {
+      "lang": "ru",
+      "key": "39dc8efe",
+      "file": "ru/39dc8efe.mp3",
+      "text": "Миграционная служба"
+    },
+    {
+      "lang": "ru",
+      "key": "6e79ff95",
+      "file": "ru/6e79ff95.mp3",
+      "text": "Минимальная зарплата"
+    },
+    {
+      "lang": "ru",
+      "key": "56c1e90c",
+      "file": "ru/56c1e90c.mp3",
+      "text": "Можете соединить меня с переводчиком?"
+    },
+    {
+      "lang": "ru",
+      "key": "a9659d56",
+      "file": "ru/a9659d56.mp3",
+      "text": "Можно ли переводчика с русским языком?"
+    },
+    {
+      "lang": "ru",
+      "key": "027a5e55",
+      "file": "ru/027a5e55.mp3",
+      "text": "Можно оформить дебетовую карту к этому счёту?"
+    },
+    {
+      "lang": "ru",
+      "key": "ee994dca",
+      "file": "ru/ee994dca.mp3",
+      "text": "Можно получить одну копию трудового договора?"
+    },
+    {
+      "lang": "ru",
+      "key": "30d89a69",
+      "file": "ru/30d89a69.mp3",
+      "text": "Можно получить расчётный листок за этот месяц?"
+    },
+    {
+      "lang": "ru",
+      "key": "9a02560b",
+      "file": "ru/9a02560b.mp3",
+      "text": "Напишите, пожалуйста, здесь."
+    },
+    {
+      "lang": "ru",
+      "key": "fc42b069",
+      "file": "ru/fc42b069.mp3",
+      "text": "Начислено всего"
+    },
+    {
+      "lang": "ru",
+      "key": "9312e75d",
+      "file": "ru/9312e75d.mp3",
+      "text": "Не облагается налогом"
+    },
+    {
+      "lang": "ru",
+      "key": "1b975843",
+      "file": "ru/1b975843.mp3",
+      "text": "Облагается налогом"
+    },
+    {
+      "lang": "ru",
+      "key": "9b0b52c4",
+      "file": "ru/9b0b52c4.mp3",
+      "text": "Обычная зарплата"
+    },
+    {
+      "lang": "ru",
+      "key": "dbcd5320",
+      "file": "ru/dbcd5320.mp3",
+      "text": "Оплата еженедельного выходного"
+    },
+    {
+      "lang": "ru",
+      "key": "1f3735b5",
+      "file": "ru/1f3735b5.mp3",
+      "text": "Повторите, пожалуйста, ещё раз."
+    },
+    {
+      "lang": "ru",
+      "key": "21e2bed8",
+      "file": "ru/21e2bed8.mp3",
+      "text": "Подоходный налог"
+    },
+    {
+      "lang": "ru",
+      "key": "7d5fb89d",
+      "file": "ru/7d5fb89d.mp3",
+      "text": "Премия"
+    },
+    {
+      "lang": "ru",
+      "key": "ef026444",
+      "file": "ru/ef026444.mp3",
+      "text": "Продление срока пребывания"
+    },
+    {
+      "lang": "ru",
+      "key": "d602c949",
+      "file": "ru/d602c949.mp3",
+      "text": "Расписка о приёме документов"
+    },
+    {
+      "lang": "ru",
+      "key": "d587f814",
+      "file": "ru/d587f814.mp3",
+      "text": "Расчётный листок"
+    },
+    {
+      "lang": "ru",
+      "key": "6cd22a4e",
+      "file": "ru/6cd22a4e.mp3",
+      "text": "Регистрационный номер иностранца"
+    },
+    {
+      "lang": "ru",
+      "key": "311f9129",
+      "file": "ru/311f9129.mp3",
+      "text": "Регистрационный номер компании"
+    },
+    {
+      "lang": "ru",
+      "key": "fc912dc1",
+      "file": "ru/fc912dc1.mp3",
+      "text": "Регистрация иностранца"
+    },
+    {
+      "lang": "ru",
+      "key": "c6822d95",
+      "file": "ru/c6822d95.mp3",
+      "text": "Сколько это стоит?"
+    },
+    {
+      "lang": "ru",
+      "key": "271350e1",
+      "file": "ru/271350e1.mp3",
+      "text": "Смена места работы"
+    },
+    {
+      "lang": "ru",
+      "key": "2ecdc3ff",
+      "file": "ru/2ecdc3ff.mp3",
+      "text": "Спасибо за помощь."
+    },
+    {
+      "lang": "ru",
+      "key": "e6c929f8",
+      "file": "ru/e6c929f8.mp3",
+      "text": "Спасибо за этот месяц. Надеюсь на вашу помощь и дальше."
+    },
+    {
+      "lang": "ru",
+      "key": "5b81409f",
+      "file": "ru/5b81409f.mp3",
+      "text": "Справка с места работы"
+    },
+    {
+      "lang": "ru",
+      "key": "1680296f",
+      "file": "ru/1680296f.mp3",
+      "text": "Статус пребывания"
+    },
+    {
+      "lang": "ru",
+      "key": "95170f70",
+      "file": "ru/95170f70.mp3",
+      "text": "Страхование долгосрочного ухода"
+    },
+    {
+      "lang": "ru",
+      "key": "77e35128",
+      "file": "ru/77e35128.mp3",
+      "text": "Страхование от несчастных случаев на работе"
+    },
+    {
+      "lang": "ru",
+      "key": "4eeaf4a2",
+      "file": "ru/4eeaf4a2.mp3",
+      "text": "Страхование по безработице"
+    },
+    {
+      "lang": "ru",
+      "key": "b0653c2e",
+      "file": "ru/b0653c2e.mp3",
+      "text": "Сумма на руки"
+    },
+    {
+      "lang": "ru",
+      "key": "b4db8c0f",
+      "file": "ru/b4db8c0f.mp3",
+      "text": "Трудовой договор"
+    },
+    {
+      "lang": "ru",
+      "key": "fbe65311",
+      "file": "ru/fbe65311.mp3",
+      "text": "У меня болит вот здесь."
+    },
+    {
+      "lang": "ru",
+      "key": "7d0b5926",
+      "file": "ru/7d0b5926.mp3",
+      "text": "Удержание"
+    },
+    {
+      "lang": "ru",
+      "key": "f855c9dc",
+      "file": "ru/f855c9dc.mp3",
+      "text": "Человек ранен. Пожалуйста, приезжайте быстрее."
+    },
+    {
+      "lang": "ru",
+      "key": "fe675580",
+      "file": "ru/fe675580.mp3",
+      "text": "Что ещё мне нужно принести?"
+    },
+    {
+      "lang": "ru",
+      "key": "42454674",
+      "file": "ru/42454674.mp3",
+      "text": "Что нужно написать в этой графе?"
+    },
+    {
+      "lang": "ru",
+      "key": "02b41070",
+      "file": "ru/02b41070.mp3",
+      "text": "Я здесь впервые. Я хочу попасть на приём к врачу."
+    },
+    {
+      "lang": "ru",
+      "key": "aafaf8a8",
+      "file": "ru/aafaf8a8.mp3",
+      "text": "Я переехал (переехала). Я пришёл (пришла) сообщить о смене адреса."
+    },
+    {
+      "lang": "ru",
+      "key": "6aa5a7c6",
+      "file": "ru/6aa5a7c6.mp3",
+      "text": "Я плохо говорю по-корейски. Говорите, пожалуйста, медленнее."
+    },
+    {
+      "lang": "ru",
+      "key": "83777fdc",
+      "file": "ru/83777fdc.mp3",
+      "text": "Я плохо себя чувствую, сегодня мне нужно в больницу."
+    },
+    {
+      "lang": "ru",
+      "key": "42b4644e",
+      "file": "ru/42b4644e.mp3",
+      "text": "Я получил (получила) травму на работе. Я хочу в больницу."
+    },
+    {
+      "lang": "ru",
+      "key": "14711341",
+      "file": "ru/14711341.mp3",
+      "text": "Я потерял (потеряла) карту регистрации иностранца. Что мне делать?"
+    },
+    {
+      "lang": "ru",
+      "key": "2178a7cf",
+      "file": "ru/2178a7cf.mp3",
+      "text": "Я пришёл (пришла) за картой регистрации иностранца."
+    },
+    {
+      "lang": "ru",
+      "key": "f87406d6",
+      "file": "ru/f87406d6.mp3",
+      "text": "Я пришёл (пришла) на регистрацию иностранца."
+    },
+    {
+      "lang": "ru",
+      "key": "11b2ef8b",
+      "file": "ru/11b2ef8b.mp3",
+      "text": "Я хочу записаться на приём в миграционную службу."
+    },
+    {
+      "lang": "ru",
+      "key": "ffffd809",
+      "file": "ru/ffffd809.mp3",
+      "text": "Я хочу открыть счёт для получения зарплаты."
+    },
+    {
+      "lang": "ru",
+      "key": "6020a1fa",
+      "file": "ru/6020a1fa.mp3",
+      "text": "Я хочу отправить деньги на родину. Какая комиссия?"
+    },
+    {
+      "lang": "ru",
+      "key": "f6e4323c",
+      "file": "ru/f6e4323c.mp3",
+      "text": "Я хочу отправить международную посылку. Сколько она будет идти?"
+    },
+    {
+      "lang": "ru",
+      "key": "4995bcb9",
+      "file": "ru/4995bcb9.mp3",
+      "text": "Я хочу подключить предоплаченную SIM-карту. Вот мой паспорт."
+    },
+    {
+      "lang": "ru",
+      "key": "2958e4bb",
+      "file": "ru/2958e4bb.mp3",
+      "text": "Я хочу проверить, оформлен ли я в национальной пенсионной системе."
+    },
+    {
+      "lang": "ru",
+      "key": "c2680fb4",
+      "file": "ru/c2680fb4.mp3",
+      "text": "Я хочу проверить, оформлено ли у меня медицинское страхование."
+    },
+    {
+      "lang": "ru",
+      "key": "c81c7607",
+      "file": "ru/c81c7607.mp3",
+      "text": "Я хочу сменить тариф по карте регистрации иностранца."
+    },
+    {
+      "lang": "ru",
+      "key": "37540eb3",
+      "file": "ru/37540eb3.mp3",
+      "text": "Я хочу узнать, до какого числа мой срок пребывания."
+    },
+    {
+      "lang": "ru",
+      "key": "7359b3a5",
+      "file": "ru/7359b3a5.mp3",
+      "text": "Я хочу ходить на курсы корейского. Это бесплатно?"
+    }
+  ]
+}
